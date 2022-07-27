@@ -13,7 +13,7 @@ Para iniciar clonar el repositorio
      DB_USER, DB_PASSWORD, DB_HOST,
    } = process.env;
 - La constante DATABASEURL cambiarla por lo siguiente:
--`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pokemon`
+-`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/text`
 - comentar las lineas del objeto dialecOptions
 
 - No olvidar hacer npm install
